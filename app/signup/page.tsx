@@ -63,6 +63,7 @@ export default function SignupPage() {
   // On form submission, simulate registration success
   const onSubmit = (data: FormData) => {
     setLoading(true);
+    console.log(data)
     // Simulate successful registration
     setTimeout(() => {
       alert('Registration successful!');

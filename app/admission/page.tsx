@@ -132,6 +132,7 @@ export default function AdmissionForm() {
 
   const onSubmit = (data: FormData) => {
     setLoading(true);
+    console.log(data)
     // Simulate form submission
     setTimeout(() => {
       alert('Admission form submitted successfully!');
