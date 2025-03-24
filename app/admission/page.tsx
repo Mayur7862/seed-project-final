@@ -237,7 +237,7 @@ export default function AdmissionForm() {
 
         {/* Mother Name */}
         <div className="mb-4">
-          <label htmlFor="motherName" className="block mb-1">Mother's Name *</label>
+          <label htmlFor="motherName" className="block mb-1">Mother&apos;s Name *</label>
           <input
             {...register('motherName')}
             type="text"
